@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,500;0,700;1,400;1,500&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Roboto", sans-serif;
+    scroll-behavior: smooth;
+ }
+ :root{
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --seconadry-color:#29a9fd;
+    --bs-supporting-color:#c850c0;
+    
+    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif
+ }
+ p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    line-height: 1.55rem;
+    /* letter-spacing: 0.7rem; */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Open Sans", sans-serif;
+}
+ h1{
+ font-size: 3.8rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+} 
+
+/* hero section  */
+.bg-main{
+    height: 90vh;
+    position: relative;
+    /* padding-bottom: 5rem; */
+}
+
+.hero-video--section{
+    max-width: 100%;
+    height: auto;
+    width: 60%;
+    border-radius: 2rem;
+}
+ .bg-main .container  div{
+    padding-top: 3%;
+    /* display: grid;
+    justify-content: center; 
+    border-radius: inherit; */
+}
+ .bg-color{
+    background-color: var(--bs-dark-primary);
+ }  
+ 
+ .nav-link:hover{
+    color: var(--seconadry-color) !important ;
+ }
+ .custom-shape-divider-bottom-1710327315 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1710327315 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1710327315 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.common-title{
+    margin-bottom: 4.2rem;
+}
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem !important; 
+
+}
+.services-section{
+    padding: 6rem 0 3rem !important;
+}
+
+.icon-span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:var(--seconadry-color);
+    color: var(--bs-main-color);
+}
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2)  0 8px 20px ;
+}
+
+  .more-info-section{
+  
+  background-image: linear-gradient(to bottom right, rgba(8, 7, 7, 0.5), rgba(12, 9, 9, 0.692)), url(./images/digi.jpg);
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.more-info-section .img-section{
+    position: relative;
+
+}
+.more-info-section .img-section img {
+    position: absolute;
+    left: 0;
+    width: 70%;
+}
+.car-hei{
+    background-color: rgba(240, 233, 233, 0.877);
+    margin: 2rem ;
+    width: 29rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.car-hei:hover{
+    scale: calc(1.1);
+    transition: 100ms;
+}
+ .business-section{
+ margin-top: 3rem;
+ }
+
+ /* footer css section  */
+ footer {
+    background-color: #968f8f;
+    color: #2e4e4913;
+    padding: 50px 0;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
