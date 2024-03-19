@@ -175,3 +175,21 @@ li{
   .footer-links li a:hover {
     text-decoration: underline;
   }
+  @media only screen and (max-width: 2721px) {
+    .hero-video--section{
+        max-width: 90%;
+        height: auto;
+        width: 79%;
+        border-radius: 2rem;
+    }
+    .hero-video--section1{
+        width: 90%;
+        height: 35rem;
+    }
+    .online-mode{
+         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
